@@ -10,53 +10,48 @@
     body {
       font-family: Arial, Helvetica, sans-serif;
     }
-    
-    /* Style the header */
+    p {
+      font-family: verdana;
+      font-size: 16px;
+       }  
     .header {
-      background-color: #f1f1f1;
+      background-image: url('Cat background.webp');
+      background-color: #6ee08b;
       padding: 30px;
-      text-align: right;
+      text-align: center;
       font-size: 35px;
-      color:chocolate;
+      color:rgb(56, 48, 44);
     }
     
-    /* Create three unequal columns that floats next to each other */
+   
     .column {
       float: left;
       padding: 10px;
-      height: 300px; /* Should be removed. Only for demonstration */
+      height: 1000px; 
     }
     
-    /* Left and right column */
+   
     .column.side {
       width: 25%;
     }
     
-    /* Middle column */
+   
     .column.middle {
       width: 50%;
     }
     
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
+   
+  
     
-    /* Style the footer */
+    
     .footer {
-      background-color: #f1f1f1;
+      background-color: #ddd9d9;
       padding: 10px;
       text-align: center;
     }
     
-    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-    @media (max-width: 600px) {
-      .column.side, .column.middle {
-        width: 100%;
-      }
-    }
+    
+   
     </style>
 </head>
 <body>
@@ -66,9 +61,28 @@
       </div>
       
       <div class="row">
-        <div class="column side" style="background-color:#B2D732;">Column</div>
-        <div class="column middle" style="background-color:rgb(46, 15, 82);">Column</div>
-        <div class="column side" style="background-color:#ccc;">Column</div>
+        <div class="column side" style="background-color:#c3f8ff;">Social Media Link
+          <br><br>  <a href="https://www.linkedin.com/in/rachael-ma-a30184242/"> LinkedIn Profile</a>
+          <br><br> <a href="https://saoirsecat.weebly.com/">Weebly Personal Site</a>
+          <br><br> <a href="https://docs.google.com/document/d/1N2eaSuYiii7I5SpjzQc9ReoJQoucKn13cxioTHkc0GI/edit">Resume</a>
+        </div>
+        <div class="column middle" style="background-color:rgb(255, 255, 255);">About me
+            <p>
+                Hi, I'm Rachael. I'm currently a high school senior who likes cats, enjoys going outdoors, and likes learning about international cultures. 
+            </p>
+            <img src="Map Picture.jpg" alt="Italian Trulli" width="400px">
+        </div>
+        
+        <div class="column side" style="background-color:rgb(231, 113, 66);">Projects
+          <br><br>
+        <img src="Drawing Project.jpg" alt="Italian Trulli" width="200px">
+        <br><br>
+        <img src="IMG_2673.jpg" alt="Italian Trulli" width="200px">
+        <br><br>
+        <a href="https://spark.adobe.com/video/Ai4V7hg8xEwL4">Adobe Spark Video Project</a>
+        <br><br>
+        <a href="https://drive.google.com/file/d/1axVw06KbAO648-8d3NaqBweQHfZpADAK/view">E1T1 UML Diagram</a>
+      </div>
       </div>
       
       <div class="footer">
